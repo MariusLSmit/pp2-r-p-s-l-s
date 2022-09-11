@@ -2,6 +2,16 @@
 
 ## List of features
 
+### Heading
+
+### Game character choices
+
+### Computer
+
+### Score keeping
+
+### End result 
+
 ## UX / UI
 
 ### Site goal
