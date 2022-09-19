@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
     background-image: url(../images/starry-sky-pixabay.jpg);
+}
+
+h1 {
+ font-family: Orbitron, sans-serif;
+ font-size: 55px;
+ color: #4f2a7f;
+ text-shadow: 3px 3px 6px #fff7f6;
+ display: flex;
+ justify-content: center;
+}
+
+h2 {
+    font-family: Orbitron, sans-serif;
+    color: #4f2a7f;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px #fff7f6;
+    display: flex;
+    justify-content: center;
 }
 
 .choices {
