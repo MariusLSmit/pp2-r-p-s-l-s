@@ -1,0 +1,20 @@
+body {
+    background-image: url(../images/starry-sky-pixabay.jpg);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#gif {
+    width: 200px;
+    height: 200px;
+}
