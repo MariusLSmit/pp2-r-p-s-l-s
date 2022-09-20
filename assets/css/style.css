@@ -39,6 +39,48 @@ h2 {
     height: 200px;
 }
 
+.choice-1 {
+    background:transparent url(../images/rock-static.png) center top no-repeat;
+    background-size: 125%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.choice-1:hover {
+    background-image: url(../images/giphy-rock.gif);
+}
+
+.choice-2 {
+    background:transparent url(../images/paper-static.png) center top no-repeat;
+    background-size: 125%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.choice-2:hover {
+    background-image: url(../images/giphy-paper.webp);
+}
+
+.choice-3 {
+    background:transparent url(../images/sciss-static.png) center top no-repeat;
+    background-size: 125%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.choice-3:hover {
+    background-image: url(../images/giphy-sciss.gif);
+}
+
 .choice-4 {
     background:transparent url(../images/lizard-static.png) center top no-repeat;
     background-size: 125%;
@@ -51,4 +93,18 @@ h2 {
 
 .choice-4:hover {
     background-image: url(../images/giphy-lizard.gif);
+}
+
+.choice-5 {
+    background:transparent url(../images/spock-static.png) center top no-repeat;
+    background-size: 125%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.choice-5:hover {
+    background-image: url(../images/giphy-spock.gif);
 }
