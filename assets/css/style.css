@@ -38,3 +38,17 @@ h2 {
     width: 200px;
     height: 200px;
 }
+
+.choice-4 {
+    background:transparent url(../images/lizard-static.png) center top no-repeat;
+    background-size: 125%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.choice-4:hover {
+    background-image: url(../images/giphy-lizard.gif);
+}
