@@ -45,8 +45,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .choice-1:hover {
@@ -59,8 +59,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .choice-2:hover {
@@ -73,8 +73,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .choice-3:hover {
@@ -87,8 +87,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .choice-4:hover {
@@ -101,10 +101,31 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .choice-5:hover {
     background-image: url(../images/giphy-spock.gif);
+}
+
+.score {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat();
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.your-name {
+    font-family: Orbitron, sans-serif;
+    color: #fff7f6;
+    font-size: 125%;
+}
+
+.comp {
+    font-family: Orbitron, sans-serif;
+    color: #fff7f6;
+    font-size: 125%;
 }
