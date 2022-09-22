@@ -41,7 +41,7 @@ h2 {
 
 .choice-1 {
     background:transparent url(../images/rock-static.png) center top no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -55,7 +55,7 @@ h2 {
 
 .choice-2 {
     background:transparent url(../images/paper-static.png) center top no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -69,7 +69,7 @@ h2 {
 
 .choice-3 {
     background:transparent url(../images/sciss-static.png) center top no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -83,7 +83,7 @@ h2 {
 
 .choice-4 {
     background:transparent url(../images/lizard-static.png) center top no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -97,7 +97,7 @@ h2 {
 
 .choice-5 {
     background:transparent url(../images/spock-static.png) center top no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     border: none;
     outline: none;
     cursor: pointer;
