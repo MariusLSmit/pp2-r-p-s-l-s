@@ -15,14 +15,15 @@ h1 {
  justify-content: center;
 }
 
-h2 {
+p {
     font-family: Orbitron, sans-serif;
-    color: #4f2a7f;
-    font-size: 50px;
-    text-shadow: 3px 3px 6px #fff7f6;
+    font-size: 30px;
     display: flex;
     justify-content: center;
+    color: #fff7f6;
+    text-shadow: 3px 3px 6px black;
 }
+
 /* Button Choices */
 
 .choices {
@@ -43,8 +44,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .choice-1:hover {
@@ -57,8 +58,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .choice-2:hover {
@@ -71,8 +72,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .choice-3:hover {
@@ -85,8 +86,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .choice-4:hover {
@@ -99,8 +100,8 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .choice-5:hover {
