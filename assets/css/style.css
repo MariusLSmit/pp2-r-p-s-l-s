@@ -38,7 +38,7 @@ p {
     cursor: pointer;
 }
 
-.choice-1 {
+#rock {
     background:transparent url(../images/rock-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
@@ -48,11 +48,11 @@ p {
     height: 150px;
 }
 
-.choice-1:hover {
+#rock:hover {
     background-image: url(../images/giphy-rock.gif);
 }
 
-.choice-2 {
+#paper {
     background:transparent url(../images/paper-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
@@ -62,11 +62,11 @@ p {
     height: 150px;
 }
 
-.choice-2:hover {
+#paper:hover {
     background-image: url(../images/giphy-paper.webp);
 }
 
-.choice-3 {
+#scissors {
     background:transparent url(../images/sciss-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
@@ -76,11 +76,11 @@ p {
     height: 150px;
 }
 
-.choice-3:hover {
+#scissors:hover {
     background-image: url(../images/giphy-sciss.gif);
 }
 
-.choice-4 {
+#lizard {
     background:transparent url(../images/lizard-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
@@ -90,11 +90,11 @@ p {
     height: 150px;
 }
 
-.choice-4:hover {
+#lizard:hover {
     background-image: url(../images/giphy-lizard.gif);
 }
 
-.choice-5 {
+#spock {
     background:transparent url(../images/spock-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
@@ -104,23 +104,14 @@ p {
     height: 150px;
 }
 
-.choice-5:hover {
+#spock:hover {
     background-image: url(../images/giphy-spock.gif);
 }
 
 /* Score section */
 
-.user {
+.gameResult {
     font-family: Orbitron, sans-serif;
     color: #fff7f6;
     font-size: 125%;
-    float: right;
-    
-}
-
-.computer {
-    font-family: Orbitron, sans-serif;
-    color: #fff7f6;
-    font-size: 125%;
-    float: left;
 }
