@@ -4,6 +4,8 @@ body {
     background-image: url(../images/starry-sky-pixabay.jpg);
 }
 
+/* Header */
+
 h1 {
  font-family: Orbitron, sans-serif;
  font-size: 55px;
@@ -21,6 +23,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+/* Button Choices */
 
 .choices {
     display: flex;
@@ -32,11 +35,6 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-}
-
-#gif {
-    width: 200px;
-    height: 200px;
 }
 
 .choice-1 {
@@ -109,6 +107,8 @@ h2 {
     background-image: url(../images/giphy-spock.gif);
 }
 
+/* Score section */
+
 .score {
     display: grid;
     justify-content: center;
@@ -118,13 +118,13 @@ h2 {
     margin-top: 1rem;
 }
 
-.your-name {
+.you {
     font-family: Orbitron, sans-serif;
     color: #fff7f6;
     font-size: 125%;
 }
 
-.comp {
+.computer {
     font-family: Orbitron, sans-serif;
     color: #fff7f6;
     font-size: 125%;
