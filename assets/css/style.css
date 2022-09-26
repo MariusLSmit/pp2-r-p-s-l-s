@@ -110,23 +110,17 @@ p {
 
 /* Score section */
 
-.score {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat();
-    justify-items: center;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-.you {
+.user {
     font-family: Orbitron, sans-serif;
     color: #fff7f6;
     font-size: 125%;
+    float: right;
+    
 }
 
 .computer {
     font-family: Orbitron, sans-serif;
     color: #fff7f6;
     font-size: 125%;
+    float: left;
 }
