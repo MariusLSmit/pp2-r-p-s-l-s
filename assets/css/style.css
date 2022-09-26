@@ -39,7 +39,7 @@ p {
 }
 
 #rock {
-    background:transparent url(../images/rock-static.png) center top no-repeat;
+    background:transparent url(../images/static-images/rock-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
     outline: none;
@@ -49,11 +49,11 @@ p {
 }
 
 #rock:hover {
-    background-image: url(../images/giphy-rock.gif);
+    background-image: url(../images/moving-images/giphy-rock.gif);
 }
 
 #paper {
-    background:transparent url(../images/paper-static.png) center top no-repeat;
+    background:transparent url(../images/static-images/paper-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
     outline: none;
@@ -63,11 +63,11 @@ p {
 }
 
 #paper:hover {
-    background-image: url(../images/giphy-paper.webp);
+    background-image: url(../images/moving-images/giphy-paper.webp);
 }
 
 #scissors {
-    background:transparent url(../images/sciss-static.png) center top no-repeat;
+    background:transparent url(../images/static-images/sciss-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
     outline: none;
@@ -77,11 +77,11 @@ p {
 }
 
 #scissors:hover {
-    background-image: url(../images/giphy-sciss.gif);
+    background-image: url(../images/moving-images/giphy-sciss.gif);
 }
 
 #lizard {
-    background:transparent url(../images/lizard-static.png) center top no-repeat;
+    background:transparent url(../images/static-images/lizard-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
     outline: none;
@@ -91,11 +91,11 @@ p {
 }
 
 #lizard:hover {
-    background-image: url(../images/giphy-lizard.gif);
+    background-image: url(../images/moving-images/giphy-lizard.gif);
 }
 
 #spock {
-    background:transparent url(../images/spock-static.png) center top no-repeat;
+    background:transparent url(../images/static-images/spock-static.png) center top no-repeat;
     background-size: 100%;
     border: none;
     outline: none;
@@ -105,13 +105,21 @@ p {
 }
 
 #spock:hover {
-    background-image: url(../images/giphy-spock.gif);
+    background-image: url(../images/moving-images/giphy-spock.gif);
 }
 
 /* Score section */
+.player {
+    background-color: #4f2a7f;
+    float: left;
+    width: 45%;
+}
+.computer {
+    background-color: #4f2a7f;
+    float: left;
+    width: 45%;
+}
 
-.gameResult {
-    font-family: Orbitron, sans-serif;
-    color: #fff7f6;
-    font-size: 125%;
+#player-image {
+    width: 75%;
 }
